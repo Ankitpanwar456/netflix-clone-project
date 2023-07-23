@@ -125,3 +125,238 @@
 </body>
 
 </html>
+
+
+
+
+css 
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#000;
+    color:#ffff;
+}
+
+.header{
+    width:100%;
+    height:90vh;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8)0,rgba(0, 0, 0, 0) 60% ,rgba(0, 0, 0, 0.8)100%),url(images/header-image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px 12%;
+    position:relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button{
+    font-size: 14px;
+    border:solid 1px #db0001;
+    padding:7px 15px;
+    color:white;
+    background-color: #db0001 ;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.language-btn{
+    display:inline-flex;
+    align-items: center;
+    background:transparent;
+    border:solid 1px #fff;
+    padding:7px 15px;
+}
+
+.language-btn img{
+    width:10px;
+    margin-left: 10px;
+}
+
+.header-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    margin-top: 50px;
+}
+
+.header-content h1{
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 1000;
+    max-width: 650px;
+}
+
+.header-content h3{
+    font-weight:14;
+    font-size:1.5rem;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.header-content p{
+    font-size:1.1rem;
+    margin-bottom: 15px
+}
+
+.email-signup input{
+    flex:1;
+    border:solid 1px #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding:15px 30px;
+    padding-right:100px;
+    background: transparent;
+    color:#000;
+    
+}
+
+.email-signup button{
+    flex:1;
+    font-size: 1.2rem;
+    color:#fff;
+    background: #db0001;
+    border:solid 1px #db0001;
+    padding:15px 30px;
+    border-radius:5px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.email-signup button i{
+     margin-left:10px;
+}
+
+/* ---------------------divider------------------ */
+
+.divider{
+    height:7px;
+    background-color: #393636;
+}
+
+/* ----------------features-------------- */
+
+.features{
+    padding:50px 12%;
+    font-size:22px;
+}
+
+.row{
+    display: flex;
+    width:100%;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top:50px;
+    justify-content: space-between;
+}
+
+.text-col{
+    flex-basis:47%;
+    margin-bottom:20px;
+}
+
+.img-col{
+    flex-basis:50%;
+    margin-bottom:20px;
+}
+
+.img-col img{
+    display:block;
+    width:100%;
+    margin:auto;
+}
+
+.text-col h1{
+    font-size: 50px;
+    font-weight:900;
+    margin-bottom:20px;
+}
+
+/* --------------FAQ-------------------- */
+
+.FAQ{
+    /* height:110vh; */
+    padding:50px 12%;
+}
+
+.FAQ h2{
+    font-size:50px;
+    text-align: center;
+    margin-bottom:30px;
+    font-weight: 900;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    background-color:#393636;
+    padding:25px 20px;
+    margin-bottom:15px;
+}
+
+.question p{
+    font-size:26px;
+}
+
+.question i{
+    font-size:30px;    
+}
+
+.FAQ-sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block:20px;
+}
+
+.FAQ-sign-up p{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
